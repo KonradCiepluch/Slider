@@ -7,8 +7,37 @@
 
 .slider {
     position: relative;
-    width: 640px;
-    margin: 100px auto 0;
+}
+
+@media(min-width : 320px) {
+    .slider {
+        width: 320px;
+        margin: 50px 0 0 0;
+    }
+}
+
+@media(min-width :360px) {
+    .slider {
+        width: 340px;
+        margin: 50px auto 0;
+    }
+}
+
+@media (min-width : 375px) {
+    .slider {
+        width: 360px;
+    }
+}
+
+@media (min-width : 640px) {
+    .slider {
+        width: 640px;
+        margin: 100px auto 0;
+    }
+}
+
+.slider__image {
+    width: 100%;
 }
 
 .slider__btn1 {
@@ -37,7 +66,7 @@
     opacity: 0.8;
 }
 
-.slider__description {
+.description {
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
     font-weight: 500;

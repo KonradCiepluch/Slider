@@ -53,6 +53,6 @@ class Slider {
     }
 }
 
-const slider = new Slider(section = document.querySelector('.slider'), img=document.querySelector('.slider__image'), btnLeft = document.querySelector('.slider__btn1'), btnRight=document.querySelector('.slider__btn2'), description = document.querySelector('.slider__description'));
+const slider = new Slider(section = document.querySelector('.slider'), img=document.querySelector('.slider__image'), btnLeft = document.querySelector('.slider__btn1'), btnRight=document.querySelector('.slider__btn2'), description = document.querySelector('.description'));
 
 slider.start();
